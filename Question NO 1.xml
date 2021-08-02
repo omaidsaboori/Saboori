@@ -1,0 +1,643 @@
+﻿<?xml version="1.0" encoding="utf-8"?><?mso-application progid="Excel.Sheet"?><Workbook xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:x2="urn:schemas-microsoft-com:office:excel2" xmlns:html="http://www.w3.org/TR/REC-html40" xmlns:dt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882">
+ <x:ExcelWorkbook>
+  <x:ActiveSheet>2</x:ActiveSheet>
+ </x:ExcelWorkbook>
+ <o:DocumentProperties>
+  <o:Author>BEZHO</o:Author>
+  <o:Created>2016-11-15T06:33:40Z</o:Created>
+  <o:LastSaved>2021-08-02T07:55:26Z</o:LastSaved>
+ </o:DocumentProperties>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <ss:Alignment ss:Vertical="Bottom" />
+   <ss:Font ss:FontName="Arial" ss:Size="10" />
+  </Style>
+  <Style ss:ID="S22">
+   <ss:Alignment ss:Vertical="Bottom" />
+   <ss:Font ss:FontName="Arial" ss:Size="10" />
+   <ss:Protection ss:Protected="1" x:HideFormula="0" />
+  </Style>
+  <Style ss:ID="S23">
+   <ss:Alignment ss:Vertical="Bottom" />
+   <ss:Font ss:FontName="Arial" ss:Size="10" />
+   <ss:Protection ss:Protected="1" x:HideFormula="0" />
+  </Style>
+  <Style ss:ID="S24">
+   <ss:Alignment ss:Vertical="Bottom" />
+   <ss:Font ss:FontName="Arial" ss:Size="10" />
+  </Style>
+  <Style ss:ID="S25">
+   <ss:Alignment ss:Vertical="Bottom" />
+   <ss:Font ss:FontName="Tahoma" ss:Size="10" />
+   <ss:Interior ss:Color="#DEEBF7" ss:Pattern="Solid" />
+   <ss:Protection ss:Protected="1" x:HideFormula="0" />
+  </Style>
+  <Style ss:ID="S26">
+   <ss:Alignment ss:Vertical="Bottom" />
+   <ss:Font ss:FontName="Tahoma" ss:Size="10" />
+   <ss:Interior ss:Color="#DEEBF7" ss:Pattern="Solid" />
+  </Style>
+  <Style ss:ID="S27">
+   <ss:Alignment ss:Vertical="Bottom" />
+   <ss:Font ss:FontName="Tahoma" ss:Size="10" />
+   <ss:Protection ss:Protected="1" x:HideFormula="0" />
+  </Style>
+  <Style ss:ID="S28">
+   <ss:Alignment ss:Vertical="Bottom" />
+   <ss:Font ss:FontName="Tahoma" ss:Size="10" />
+  </Style>
+  <Style ss:ID="S29">
+   <ss:Alignment ss:Vertical="Bottom" />
+   <ss:Font ss:FontName="Tahoma" ss:Size="11" />
+   <ss:Protection ss:Protected="1" x:HideFormula="0" />
+  </Style>
+  <Style ss:ID="S30">
+   <ss:Alignment ss:Vertical="Bottom" />
+   <ss:Font ss:FontName="Tahoma" ss:Size="11" />
+  </Style>
+  <Style ss:ID="S31">
+   <ss:Alignment ss:Vertical="Bottom" />
+   <ss:Font ss:FontName="Tahoma" ss:Size="11" />
+  </Style>
+  <Style ss:ID="S32">
+   <ss:Alignment ss:Vertical="Bottom" />
+   <ss:Font ss:FontName="Tahoma" ss:Size="11" />
+   <ss:NumberFormat />
+   <ss:Protection ss:Protected="1" x:HideFormula="0" />
+  </Style>
+  <Style ss:ID="S33">
+   <ss:Alignment ss:Vertical="Bottom" />
+   <ss:Font ss:FontName="Arial" ss:Size="10" />
+   <ss:Protection ss:Protected="1" x:HideFormula="0" />
+  </Style>
+  <Style ss:ID="S34">
+   <ss:Alignment ss:Horizontal="Left" ss:Vertical="Center" />
+   <ss:Font ss:FontName="Tahoma" ss:Size="11" />
+   <ss:Interior ss:Color="#D0CECE" ss:Pattern="Solid" />
+   <ss:Protection ss:Protected="1" x:HideFormula="0" />
+  </Style>
+  <Style ss:ID="S35">
+   <ss:Alignment ss:Horizontal="Left" ss:Vertical="Center" />
+   <ss:Font ss:FontName="Arial" ss:Size="10" />
+  </Style>
+  <Style ss:ID="S36">
+   <ss:Alignment ss:Vertical="Bottom" />
+   <ss:Font ss:FontName="Arial" ss:Size="10" />
+  </Style>
+  <Style ss:ID="S37">
+   <ss:Alignment ss:Vertical="Bottom" />
+   <ss:Font ss:Bold="1" ss:FontName="Tahoma" ss:Size="10" />
+   <ss:Protection ss:Protected="1" x:HideFormula="0" />
+  </Style>
+  <Style ss:ID="S38">
+   <ss:Alignment ss:Vertical="Bottom" />
+   <ss:Font ss:Bold="1" ss:FontName="Tahoma" ss:Size="10" />
+  </Style>
+  <Style ss:ID="S39">
+   <ss:Alignment ss:Vertical="Bottom" />
+   <ss:Font ss:FontName="Tahoma" ss:Size="10" />
+   <ss:Interior ss:Color="#FFC000" ss:Pattern="Solid" />
+   <ss:Protection ss:Protected="1" x:HideFormula="0" />
+  </Style>
+  <Style ss:ID="S40">
+   <ss:Alignment ss:Vertical="Bottom" />
+   <ss:Font ss:FontName="Tahoma" ss:Size="10" />
+   <ss:Interior ss:Color="#FFC000" ss:Pattern="Solid" />
+  </Style>
+  <Style ss:ID="S41">
+   <ss:Alignment ss:Vertical="Bottom" />
+   <ss:Font ss:FontName="Tahoma" ss:Size="10" />
+   <ss:Interior ss:Color="#ED7D31" ss:Pattern="Solid" />
+   <ss:Protection ss:Protected="1" x:HideFormula="0" />
+  </Style>
+  <Style ss:ID="S42">
+   <ss:Alignment ss:Vertical="Bottom" />
+   <ss:Font ss:FontName="Tahoma" ss:Size="10" />
+   <ss:Interior ss:Color="#ED7D31" ss:Pattern="Solid" />
+  </Style>
+  <Style ss:ID="S43">
+   <ss:Alignment ss:Vertical="Bottom" />
+   <ss:Font ss:Bold="1" ss:Color="#000000" ss:FontName="Calibri" ss:Size="11" />
+   <ss:Interior ss:Color="#ED7D31" ss:Pattern="Solid" />
+  </Style>
+  <Style ss:ID="S44">
+   <ss:Alignment ss:Vertical="Bottom" />
+   <ss:Font ss:FontName="Arial" ss:Size="10" />
+   <ss:Interior ss:Color="#ED7D31" ss:Pattern="Solid" />
+  </Style>
+  <Style ss:ID="S45">
+   <ss:Alignment ss:Horizontal="Right" ss:Vertical="Center" ss:WrapText="1" />
+   <ss:Font ss:FontName="Tahoma" ss:Size="9" />
+   <ss:Interior ss:Color="#ED7D31" ss:Pattern="Solid" />
+  </Style>
+  <Style ss:ID="S46">
+   <ss:Alignment ss:Vertical="Bottom" />
+   <ss:Font ss:FontName="Tahoma" ss:Size="10" />
+   <ss:Interior ss:Color="#5B9BD5" ss:Pattern="Solid" />
+   <ss:Protection ss:Protected="1" x:HideFormula="0" />
+  </Style>
+  <Style ss:ID="S47">
+   <ss:Alignment ss:Vertical="Bottom" />
+   <ss:Font ss:FontName="Tahoma" ss:Size="10" />
+   <ss:Interior ss:Color="#5B9BD5" ss:Pattern="Solid" />
+  </Style>
+  <Style ss:ID="S48">
+   <ss:Alignment ss:Vertical="Bottom" />
+   <ss:Font ss:FontName="Arial" ss:Size="10" />
+   <ss:Interior ss:Color="#5B9BD5" ss:Pattern="Solid" />
+  </Style>
+  <Style ss:ID="S49">
+   <ss:Alignment ss:Vertical="Bottom" />
+   <ss:Font ss:FontName="Arial" ss:Size="10" />
+   <ss:Interior ss:Color="#FFC000" ss:Pattern="Solid" />
+  </Style>
+  <Style ss:ID="S50">
+   <ss:Alignment ss:Vertical="Bottom" />
+   <ss:Font ss:Bold="1" ss:Color="#000000" ss:FontName="Calibri" ss:Size="11" />
+   <ss:Interior ss:Color="#5B9BD5" ss:Pattern="Solid" />
+  </Style>
+  <Style ss:ID="S51">
+   <ss:Alignment ss:Vertical="Bottom" />
+   <ss:Font ss:FontName="Arial" ss:Size="10" />
+   <ss:Interior ss:Color="#5B9BD5" ss:Pattern="Solid" />
+  </Style>
+  <Style ss:ID="S52">
+   <ss:Alignment ss:Vertical="Bottom" />
+   <ss:Font ss:FontName="Tahoma" ss:Size="10" />
+   <ss:Interior ss:Color="#E2F0D9" ss:Pattern="Solid" />
+   <ss:Protection ss:Protected="1" x:HideFormula="0" />
+  </Style>
+  <Style ss:ID="S53">
+   <ss:Alignment ss:Vertical="Bottom" />
+   <ss:Font ss:Bold="1" ss:Color="#000000" ss:FontName="Calibri" ss:Size="11" />
+   <ss:Interior ss:Color="#E2F0D9" ss:Pattern="Solid" />
+  </Style>
+  <Style ss:ID="S54">
+   <ss:Alignment ss:Vertical="Bottom" />
+   <ss:Font ss:FontName="Tahoma" ss:Size="10" />
+   <ss:Interior ss:Color="#E2F0D9" ss:Pattern="Solid" />
+  </Style>
+  <Style ss:ID="S55">
+   <ss:Alignment ss:Vertical="Bottom" />
+   <ss:Font ss:FontName="Arial" ss:Size="10" />
+   <ss:Interior ss:Color="#E2F0D9" ss:Pattern="Solid" />
+  </Style>
+  <Style ss:ID="S56">
+   <ss:Alignment ss:Vertical="Bottom" />
+   <ss:Font ss:FontName="Arial" ss:Size="10" />
+   <ss:Interior ss:Color="#DEEBF7" ss:Pattern="Solid" />
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="choices">
+  <ss:Names />
+  <ss:Table ss:DefaultRowHeight="15.75" ss:DefaultColumnWidth="48" ss:ExpandedRowCount="12" ss:ExpandedColumnCount="4">
+   <Column ss:Index="1" ss:AutoFitWidth="0" ss:Width="62.25" />
+   <Column ss:Index="2" ss:AutoFitWidth="0" ss:Width="81.75" />
+   <Column ss:Index="3" ss:AutoFitWidth="0" ss:Width="94.5" />
+   <Row ss:Index="1" ss:StyleID="S35">
+    <Cell ss:StyleID="S34"><Data ss:Type="String">list_name</Data>
+    </Cell>
+    <Cell ss:StyleID="S34"><Data ss:Type="String">name</Data>
+    </Cell>
+    <Cell ss:StyleID="S34"><Data ss:Type="String">label</Data>
+    </Cell>
+    <Cell ss:StyleID="S34"><Data ss:Type="String">order</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="2" ss:StyleID="S24">
+    <Cell ss:StyleID="S29"><Data ss:Type="String">Interviewer</Data>
+    </Cell>
+    <Cell ss:StyleID="S32"><Data ss:Type="String">mike</Data>
+    </Cell>
+    <Cell ss:StyleID="S32"><Data ss:Type="String">mike</Data>
+    </Cell>
+    <Cell ss:StyleID="S30" />
+   </Row>
+   <Row ss:Index="3" ss:StyleID="S24">
+    <Cell ss:StyleID="S29"><Data ss:Type="String">Interviewer</Data>
+    </Cell>
+    <Cell ss:StyleID="S32"><Data ss:Type="String">john</Data>
+    </Cell>
+    <Cell ss:StyleID="S32"><Data ss:Type="String">john</Data>
+    </Cell>
+    <Cell ss:StyleID="S30" />
+   </Row>
+   <Row ss:Index="4">
+    <Cell ss:StyleID="S29"><Data ss:Type="String">Interviewer</Data>
+    </Cell>
+    <Cell ss:StyleID="S32"><Data ss:Type="String">mary</Data>
+    </Cell>
+    <Cell ss:StyleID="S32"><Data ss:Type="String">mary</Data>
+    </Cell>
+    <Cell ss:StyleID="S31" />
+   </Row>
+   <Row ss:Index="5">
+    <Cell ss:StyleID="S29"><Data ss:Type="String">Location</Data>
+    </Cell>
+    <Cell ss:StyleID="S29"><Data ss:Type="String">Kabul</Data>
+    </Cell>
+    <Cell ss:StyleID="S29"><Data ss:Type="String">Kabul</Data>
+    </Cell>
+    <Cell ss:StyleID="S31" />
+   </Row>
+   <Row ss:Index="6">
+    <Cell ss:StyleID="S29"><Data ss:Type="String">Location</Data>
+    </Cell>
+    <Cell ss:StyleID="S29"><Data ss:Type="String">Nangarhar</Data>
+    </Cell>
+    <Cell ss:StyleID="S29"><Data ss:Type="String">Nangarhar</Data>
+    </Cell>
+    <Cell ss:StyleID="S31" />
+   </Row>
+   <Row ss:Index="7">
+    <Cell ss:StyleID="S29"><Data ss:Type="String">Location</Data>
+    </Cell>
+    <Cell ss:StyleID="S29"><Data ss:Type="String">Bamian</Data>
+    </Cell>
+    <Cell ss:StyleID="S29"><Data ss:Type="String">Bamian</Data>
+    </Cell>
+    <Cell ss:StyleID="S29" />
+   </Row>
+   <Row ss:Index="8">
+    <Cell ss:StyleID="S36"><Data ss:Type="String">yesno</Data>
+    </Cell>
+    <Cell ss:StyleID="S36"><Data ss:Type="String">yes</Data>
+    </Cell>
+    <Cell ss:StyleID="S36"><Data ss:Type="String">yes</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="9">
+    <Cell ss:StyleID="S36"><Data ss:Type="String">yesno</Data>
+    </Cell>
+    <Cell ss:StyleID="S36"><Data ss:Type="String">no</Data>
+    </Cell>
+    <Cell ss:StyleID="S36"><Data ss:Type="String">no</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="10">
+    <Cell ss:StyleID="S36"><Data ss:Type="String">education</Data>
+    </Cell>
+    <Cell ss:StyleID="S36"><Data ss:Type="String">primary</Data>
+    </Cell>
+    <Cell ss:StyleID="S36"><Data ss:Type="String">primary</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="11">
+    <Cell ss:StyleID="S36"><Data ss:Type="String">education</Data>
+    </Cell>
+    <Cell ss:StyleID="S36"><Data ss:Type="String">mid</Data>
+    </Cell>
+    <Cell ss:StyleID="S36"><Data ss:Type="String">mid</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="12">
+    <Cell ss:StyleID="S36"><Data ss:Type="String">education</Data>
+    </Cell>
+    <Cell ss:StyleID="S36"><Data ss:Type="String">high</Data>
+    </Cell>
+    <Cell ss:StyleID="S36"><Data ss:Type="String">high</Data>
+    </Cell>
+   </Row>
+  </ss:Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Layout x:Orientation="Landscape" x:CenterHorizontal="1" x:StartPageNumber="1" />
+    <Header x:Margin="0.1" x:Data="&amp;C&amp;P" />
+    <Footer x:Margin="0.1" x:Data="&amp;C&amp;F" />
+    <PageMargins x:Top="0.61" x:Bottom="0.37" x:Left="0.3" x:Right="0.3" />
+   </PageSetup>
+   <Print>
+    <ValidPrinterInfo />
+    <LeftToRight />
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>16</ActiveRow>
+     <ActiveCol>1</ActiveCol>
+     <RangeSelection>R17C2</RangeSelection>
+    </Pane>
+   </Panes>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="settings">
+  <ss:Names />
+  <ss:Table ss:DefaultRowHeight="12.5" ss:DefaultColumnWidth="48" ss:ExpandedRowCount="2" ss:ExpandedColumnCount="3">
+   <Column ss:Index="1" ss:AutoFitWidth="0" ss:Width="147.75" />
+   <Column ss:Index="2" ss:AutoFitWidth="0" ss:Width="111" />
+   <Column ss:Index="3" ss:AutoFitWidth="0" ss:Width="97.5" />
+   <Row ss:Index="1">
+    <Cell ss:StyleID="S23"><Data ss:Type="String">form_title</Data>
+    </Cell>
+    <Cell ss:StyleID="S23"><Data ss:Type="String">form_id</Data>
+    </Cell>
+    <Cell ss:StyleID="S22"><Data ss:Type="String">version</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="2">
+    <Cell ss:StyleID="S33"><Data ss:Type="String">houshold</Data>
+    </Cell>
+    <Cell ss:StyleID="S33"><Data ss:Type="String">houshold</Data>
+    </Cell>
+    <Cell ss:StyleID="S23"><Data ss:Type="Number">1233333</Data>
+    </Cell>
+   </Row>
+  </ss:Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Layout x:CenterHorizontal="1" x:StartPageNumber="1" />
+    <Header x:Margin="0.1" x:Data="&amp;C&amp;P" />
+    <Footer x:Margin="0.1" x:Data="&amp;C&amp;F" />
+    <PageMargins x:Top="0.61" x:Bottom="0.37" x:Left="0.3" x:Right="0.3" />
+   </PageSetup>
+   <Print>
+    <ValidPrinterInfo />
+    <LeftToRight />
+    <PaperSizeIndex>9</PaperSizeIndex>
+   </Print>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveCol>3</ActiveCol>
+     <RangeSelection>C4</RangeSelection>
+    </Pane>
+   </Panes>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="QUESTION ONE">
+  <ss:Names />
+  <ss:Table ss:DefaultRowHeight="12.5" ss:DefaultColumnWidth="46.5" ss:ExpandedRowCount="26" ss:ExpandedColumnCount="5" ss:StyleID="S28">
+   <Column ss:Index="1" ss:StyleID="S28" ss:AutoFitWidth="0" ss:Width="111" />
+   <Column ss:Index="2" ss:StyleID="S28" ss:AutoFitWidth="0" ss:Width="162" />
+   <Column ss:Index="3" ss:StyleID="S28" ss:AutoFitWidth="0" ss:Width="210.75" />
+   <Column ss:Index="4" ss:StyleID="S28" ss:AutoFitWidth="0" ss:Width="47.25" />
+   <Column ss:Index="5" ss:StyleID="S28" ss:AutoFitWidth="0" ss:Width="207" />
+   <Row ss:Index="1" ss:StyleID="S38">
+    <Cell ss:StyleID="S37"><Data ss:Type="String">type</Data>
+    </Cell>
+    <Cell ss:StyleID="S37"><Data ss:Type="String">name</Data>
+    </Cell>
+    <Cell ss:StyleID="S37"><Data ss:Type="String">label</Data>
+    </Cell>
+    <Cell ss:StyleID="S37"><Data ss:Type="String">required</Data>
+    </Cell>
+    <Cell ss:StyleID="S37"><Data ss:Type="String">relevant</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="2" ss:StyleID="S42">
+    <Cell ss:StyleID="S41"><Data ss:Type="String">select_one Interviewer</Data>
+    </Cell>
+    <Cell ss:StyleID="S41"><Data ss:Type="String">Interviewer</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">Name of Interviewer</Data>
+    </Cell>
+    <Cell ss:StyleID="S41"><Data ss:Type="String">true</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="3" ss:StyleID="S42">
+    <Cell ss:StyleID="S41"><Data ss:Type="String">select_one Location</Data>
+    </Cell>
+    <Cell ss:StyleID="S41"><Data ss:Type="String">Location</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">Location</Data>
+    </Cell>
+    <Cell ss:StyleID="S41"><Data ss:Type="String">true</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="4" ss:Height="14.5" ss:StyleID="S42">
+    <Cell ss:StyleID="S41"><Data ss:Type="String">begin_group</Data>
+    </Cell>
+    <Cell ss:StyleID="S43"><Data ss:Type="String">HOUSEHOLD_DEMOGRAPHICS</Data>
+    </Cell>
+    <Cell ss:StyleID="S43"><Data ss:Type="String">HOUSEHOLD DEMOGRAPHICS</Data>
+    </Cell>
+    <Cell ss:StyleID="S41" />
+   </Row>
+   <Row ss:Index="5" ss:StyleID="S42">
+    <Cell ss:StyleID="S41"><Data ss:Type="String">integer</Data>
+    </Cell>
+    <Cell ss:StyleID="S41"><Data ss:Type="String">Number_of_people</Data>
+    </Cell>
+    <Cell ss:StyleID="S41"><Data ss:Type="String">Number of people in Household</Data>
+    </Cell>
+    <Cell ss:StyleID="S41"><Data ss:Type="String">true</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="6" ss:StyleID="S41">
+    <Cell><Data ss:Type="String">integer</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">females</Data>
+    </Cell>
+    <Cell ss:StyleID="S44"><Data ss:Type="String">How many females?</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">true</Data>
+    </Cell>
+    <Cell ss:StyleID="S45" />
+   </Row>
+   <Row ss:Index="7" ss:StyleID="S41">
+    <Cell><Data ss:Type="String">integer</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">males</Data>
+    </Cell>
+    <Cell ss:StyleID="S44"><Data ss:Type="String">How many males?</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">true</Data>
+    </Cell>
+    <Cell ss:StyleID="S45" />
+   </Row>
+   <Row ss:Index="8" ss:StyleID="S42">
+    <Cell ss:StyleID="S41"><Data ss:Type="String">integer</Data>
+    </Cell>
+    <Cell ss:StyleID="S41"><Data ss:Type="String">children</Data>
+    </Cell>
+    <Cell ss:StyleID="S44"><Data ss:Type="String">How many children (under 10 Years)?</Data>
+    </Cell>
+    <Cell ss:StyleID="S41"><Data ss:Type="String">true</Data>
+    </Cell>
+    <Cell ss:StyleID="S45" />
+   </Row>
+   <Row ss:Index="9" ss:StyleID="S42">
+    <Cell ss:StyleID="S41"><Data ss:Type="String">end_group</Data>
+    </Cell>
+    <Cell ss:StyleID="S41" />
+    <Cell ss:Index="4" ss:StyleID="S41" />
+   </Row>
+   <Row ss:Index="10" ss:StyleID="S40">
+    <Cell ss:StyleID="S39"><Data ss:Type="String">begin_group</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">HOUSEHOLD_ECONOMICS</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">HOUSEHOLD ECONOMICS</Data>
+    </Cell>
+    <Cell ss:StyleID="S39" />
+   </Row>
+   <Row ss:Index="11" ss:StyleID="S40">
+    <Cell ss:StyleID="S39"><Data ss:Type="String">select_one yesno</Data>
+    </Cell>
+    <Cell ss:StyleID="S39"><Data ss:Type="String">television</Data>
+    </Cell>
+    <Cell ss:StyleID="S49"><Data ss:Type="String">Does the household have a television?</Data>
+    </Cell>
+    <Cell ss:StyleID="S39"><Data ss:Type="String">true</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="12" ss:StyleID="S40">
+    <Cell ss:StyleID="S39"><Data ss:Type="String">select_one yesno</Data>
+    </Cell>
+    <Cell ss:StyleID="S39"><Data ss:Type="String">radio</Data>
+    </Cell>
+    <Cell ss:StyleID="S49"><Data ss:Type="String">Does the household have a radio?</Data>
+    </Cell>
+    <Cell ss:StyleID="S39"><Data ss:Type="String">true</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="13" ss:StyleID="S40">
+    <Cell ss:StyleID="S39"><Data ss:Type="String">select_one yesno</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">phone</Data>
+    </Cell>
+    <Cell ss:StyleID="S49"><Data ss:Type="String">Does the household have a cell-phone?</Data>
+    </Cell>
+    <Cell ss:StyleID="S39"><Data ss:Type="String">true</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="14" ss:StyleID="S40">
+    <Cell ss:StyleID="S39"><Data ss:Type="String">end_group</Data>
+    </Cell>
+    <Cell ss:Index="4" ss:StyleID="S39"><Data ss:Type="String">true</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="15" ss:Height="14.5" ss:StyleID="S47">
+    <Cell ss:StyleID="S46"><Data ss:Type="String">begin_group</Data>
+    </Cell>
+    <Cell ss:StyleID="S46"><Data ss:Type="String">HOUSEHOLD_EDUCATION</Data>
+    </Cell>
+    <Cell ss:StyleID="S50"><Data ss:Type="String">HOUSEHOLD EDUCATION</Data>
+    </Cell>
+    <Cell ss:StyleID="S46" />
+   </Row>
+   <Row ss:Index="16" ss:StyleID="S47">
+    <Cell ss:StyleID="S46"><Data ss:Type="String">select_one education</Data>
+    </Cell>
+    <Cell ss:StyleID="S46"><Data ss:Type="String">education</Data>
+    </Cell>
+    <Cell ss:StyleID="S48"><Data ss:Type="String">What is the level of education of the head of household?</Data>
+    </Cell>
+    <Cell ss:StyleID="S46"><Data ss:Type="String">true</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="17" ss:StyleID="S47">
+    <Cell ss:StyleID="S46"><Data ss:Type="String">select_one education</Data>
+    </Cell>
+    <Cell ss:StyleID="S46"><Data ss:Type="String">education2</Data>
+    </Cell>
+    <Cell ss:StyleID="S51"><Data ss:Type="String">What is the level of education of anyone in the household?</Data>
+    </Cell>
+    <Cell ss:StyleID="S46"><Data ss:Type="String">true</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="18" ss:StyleID="S47">
+    <Cell ss:StyleID="S46"><Data ss:Type="String">end_group</Data>
+    </Cell>
+    <Cell ss:StyleID="S46" />
+    <Cell ss:Index="4" ss:StyleID="S46" />
+   </Row>
+   <Row ss:Index="19" ss:Height="14.5" ss:StyleID="S54">
+    <Cell ss:StyleID="S52"><Data ss:Type="String">begin_group</Data>
+    </Cell>
+    <Cell ss:StyleID="S52" />
+    <Cell ss:StyleID="S53"><Data ss:Type="String">HOUSEHOLD ENVIRONMENT</Data>
+    </Cell>
+    <Cell ss:StyleID="S52" />
+   </Row>
+   <Row ss:Index="20" ss:StyleID="S54">
+    <Cell ss:StyleID="S52"><Data ss:Type="String">select_one yesno</Data>
+    </Cell>
+    <Cell ss:StyleID="S52"><Data ss:Type="String">electricity</Data>
+    </Cell>
+    <Cell ss:StyleID="S55"><Data ss:Type="String">Does the household have electricity?</Data>
+    </Cell>
+    <Cell ss:StyleID="S52"><Data ss:Type="String">true</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="21" ss:StyleID="S54">
+    <Cell ss:StyleID="S52"><Data ss:Type="String">select_one yesno</Data>
+    </Cell>
+    <Cell ss:StyleID="S52"><Data ss:Type="String">toilet</Data>
+    </Cell>
+    <Cell ss:StyleID="S55"><Data ss:Type="String">Does the household have a latrine or toilet?</Data>
+    </Cell>
+    <Cell ss:StyleID="S52"><Data ss:Type="String">true</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="22" ss:StyleID="S54">
+    <Cell ss:StyleID="S52"><Data ss:Type="String">end_group</Data>
+    </Cell>
+    <Cell ss:StyleID="S52" />
+    <Cell ss:Index="4" ss:StyleID="S52" />
+   </Row>
+   <Row ss:Index="23" ss:StyleID="S26">
+    <Cell ss:StyleID="S25"><Data ss:Type="String">text</Data>
+    </Cell>
+    <Cell ss:StyleID="S25"><Data ss:Type="String">shared</Data>
+    </Cell>
+    <Cell ss:StyleID="S56"><Data ss:Type="String"> is the facility shared?</Data>
+    </Cell>
+    <Cell ss:StyleID="S25" />
+    <Cell ss:StyleID="S28"><Data ss:Type="String">${toilet}='yes'</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="24">
+    <Cell ss:StyleID="S27"><Data ss:Type="String">start</Data>
+    </Cell>
+    <Cell ss:StyleID="S27"><Data ss:Type="String">start</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="25">
+    <Cell ss:StyleID="S27"><Data ss:Type="String">today</Data>
+    </Cell>
+    <Cell ss:StyleID="S27"><Data ss:Type="String">today</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="26">
+    <Cell><Data ss:Type="String">deviceid</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">deviceid</Data>
+    </Cell>
+   </Row>
+  </ss:Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Zoom>99</Zoom>
+   <PageSetup>
+    <Layout x:CenterHorizontal="1" x:StartPageNumber="1" />
+    <Header x:Margin="0.1" x:Data="&amp;C&amp;P" />
+    <Footer x:Margin="0.1" x:Data="&amp;C&amp;F" />
+    <PageMargins x:Top="0.61" x:Bottom="0.37" x:Left="0.3" x:Right="0.3" />
+   </PageSetup>
+   <Print>
+    <ValidPrinterInfo />
+    <LeftToRight />
+    <PaperSizeIndex>9</PaperSizeIndex>
+   </Print>
+   <FreezePanes />
+   <FrozenNoSplit />
+   <SplitHorizontal>1</SplitHorizontal>
+   <TopRowBottomPane>1</TopRowBottomPane>
+   <ActivePane>2</ActivePane>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <RangeSelection>R1C1</RangeSelection>
+    </Pane>
+    <Pane>
+     <Number>2</Number>
+     <ActiveRow>1</ActiveRow>
+     <RangeSelection>R2C1</RangeSelection>
+    </Pane>
+   </Panes>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>
